@@ -1,0 +1,416 @@
+
+.detail-product{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(218, 216, 216);
+    overflow: hidden;
+}
+main{
+    padding-bottom: 0;
+}
+.detail-path{
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+.detail-path>span{
+    margin: 0 10px;
+    color: rgb(88, 88, 88);
+}
+.detail-path>span>i{
+    font-size: 12px;
+    margin: 0 8px; 
+}
+.detail-path>.pathdesc{
+    color: rgb(0, 0, 0);
+}
+/* detail-panel */
+.detail-panel{
+    display: block;
+    height:auto;
+    /* background-color: salmon; */
+    background-color: rgb(255, 255, 255);
+}
+.detail-panel>.aside{
+    width: 440px;
+    height: auto;
+    /* background-color: slateblue; */
+    float: left;
+}
+.detail-panel>.selectoptions{
+    width: 759PX;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding: 10px;
+}
+.product-small-img-box{
+    width: 440PX;
+    height: 440PX;
+    /* background-color: blueviolet; */
+    background-image: url('../img/detail-01.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-small-img-box-ctl{
+    height: 68px;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    margin-top: 20px;
+}
+.product-small-img-box-ctl>i{
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(218, 216, 216);
+}
+.product-small-img-box-ctl>i:hover{
+    color: rgb(99, 95, 95);
+}
+.product-small-img-box-ctl>.left{
+    left: 5px;
+}
+.product-small-img-box-ctl>.right{
+    right: 5px;
+}
+.ctl-small-img{
+    width: 300PX;
+    height: 75PX;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.ctl-small-img>ul{
+    display: block;
+    width: 1200px;
+    height: 68PX;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+}
+.ctl-small-img>ul>li{
+    width: 58px;
+    height: 58px;
+    
+    background-image: url('../img/small01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px 48px;
+    margin: 0 3PX;
+    margin-top: 6px;
+    float: left;
+}
+.ctl-small-img>ul>li:hover{
+    border: 1px solid rgb(219, 31, 31);
+}
+.selectoptions>.title{
+    font-size: 20px;
+}
+.selectoptions>p>.slogan{
+    font-size: 12px;
+    color: rgb(219, 31, 31);
+    text-decoration: underline;
+}
+.pricemsgbox{
+    width: 703px;
+    height: auto;
+    background-color: rgb(232,232,232);
+    margin-top: 18px;
+    padding: 16px ;
+    
+}
+.pricemsgbox>p{
+    margin: 10px;
+    font-size: 12px;
+}
+.pricemsgbox>p>label{
+   letter-spacing: 20px;
+   width: 70px;
+   display: inline-block;
+   height: 20px;
+
+}
+.pricemsgbox>p>span{
+    display: inline-block;
+    width: 464px;
+    line-height: 20px;
+    vertical-align: top;
+    overflow: hidden;
+    height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+   margin: 0 10px;
+  color: rgb(59, 59, 59);
+}
+.pricemsgbox>p>.label{
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    padding: 0px 10px;
+    line-height: 18px;
+    border: 1px solid rgb(219, 31, 31);
+    color: rgb(219, 31, 31);
+    
+}
+.pricemsgbox>p>.pricestyle-red{
+    width: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(219, 31, 31);
+}
+.pricemsgbox>p>del{
+    color: rgb(139, 138, 138);
+}
+.hr-16{
+    width: 100%;
+    height: 16px;
+    border-top:1px solid rgb(189, 187, 187);
+    margin-top: 4px;
+}
+
+.sku-con{
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+}
+.sku-con>.title{
+  
+    font-size: 12px;
+    margin-right: 30px;
+}
+.sku-con>.content-select{
+    display: inline-block;
+    width: 145px;
+    height: 30px;
+    border: 1px solid rgb(148, 146, 146);
+   
+    margin-right: 20px;
+    position: relative;
+}
+.sku-con>p{
+   
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 18px 0;
+    padding-left: 80px;
+    
+}
+.sku-con>p>span{
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 15px;
+}
+.sku-con>p>span>i{
+    font-size: 12px;
+    vertical-align: top;
+}
+.sku-con>p>span>a{
+   text-decoration: underline;
+   color: rgb(15, 164, 201);
+}
+.currentSelect{
+    line-height: 30px;
+   padding: 0 10px;
+   position: relative;
+}
+.currentSelect::after{
+    content: '现货';
+    width: auto;
+    color: rgb(219, 31, 31);
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: -80px;
+    transform: translateY(-50%);
+}
+.currentSelect>i{
+    float: right;
+    transform: rotate(90deg);
+    margin-right: 10px;
+    color: rgb(148, 146, 146);
+}
+.currentSelect:hover i{
+    transform: rotate(-90deg);
+}
+
+.child-panel{
+    width: 347px;
+    height: 336px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(148, 146, 146);;
+    position: absolute;
+    top: 28px;
+    left:-1px;
+    z-index: 50;
+    display: none;
+}
+.child-panel>p{
+    margin: 12px;
+}
+
+.child-panel>.addresscontrol>span{
+    display: inline-block;
+    width: auto;
+    margin: 12px;
+}
+.child-panel>.addresslist{
+    width: auto;
+    height: auto;
+    margin: 12px;
+    max-height: 336px;
+    overflow-y: auto;
+    background-color: rgb(255, 255, 255);
+    
+}
+.child-panel>.addresslist>span{
+   display: inline-block;
+   width: auto;
+   height: 20px;
+   margin: 12px;
+  
+}
+
+.product-id{
+    color: rgb(105, 104, 104);
+}
+.sku-con>.con-sel{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    border: 1px solid rgb(139, 138, 138);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.comm{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+.sku-color-select>.con-sel>.img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    /* background-color: black; */
+    background-image: url('../img/sku-small-01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px;
+}
+.sku-color-select>.con-sel>.msg{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.sku-color-select{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.sku-verson-select>.con-sel{
+    display: inline-block;
+    width: auto;
+    padding: 5px 10px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+}
+.sku-fenqi-select>.con-sel>i{
+    font-size: 12px;
+    color: rgb(105, 104, 104);
+}
+.sku-already-select>span{
+    color: rgb(219, 31, 31);
+}
+.sku-submit-select>.number-select{
+    width: 63px;
+    height: 48px;
+    margin-right: 10px;
+    
+    position: relative;
+}
+.sku-submit-select>.number-select>input{
+    width: 40px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: none;
+    border: 1px solid rgb(212, 209, 209);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.sku-submit-select>.number-select>button{
+    display: block;
+    width: 22px;
+    height: 24px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(99, 95, 95);
+    outline: none;
+    border: 1px solid rgb(212, 209, 209);
+    position: absolute;
+   
+    right: 0;
+}
+.sku-submit-select>.number-select>.bt-top{
+  
+    top: 0;
+   
+}
+.sku-submit-select>.number-select>.bt-bottom{
+  
+    bottom: 0;
+   
+}
+.sku-submit-select>.add-car,
+.sku-submit-select>.buy{
+    width: 174px;
+    height: 46px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+}
+.add-car{
+    background-color: rgb(250, 125, 9);
+}
+.buy{
+    background-color: rgb(219, 31, 31);
+}
+/* main-random */
+main{
+    background-color: rgb(255, 255, 255);
+}
+main>.random{
+   
+    width: 100%;   
+    height: 300px;
+ 
+    border-bottom: 1px solid rgb(189, 187, 187);
+}
+.random>.random-con{
+    flex-direction: column;
+    justify-content: start;
+    
+}
